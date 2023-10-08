@@ -1,0 +1,13 @@
+[package]
+name = "surrealdb-rust-dbpool"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+axum = "0.6.20"
+deadpool = "0.10.0"
+serde = { version = "1.0.188", features = ["serde_derive"] }
+surrealdb = "1.0.0"
+tokio = { version = "1.32.0", features = ["full"] }
